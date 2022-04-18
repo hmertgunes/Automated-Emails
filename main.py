@@ -3,7 +3,7 @@ import pandas as pd
 from get_news import News
 import datetime
 
-email = yagmail.SMTP(user="hmertgunes@gmail.com", password="thisismybusiness528491")
+email = yagmail.SMTP(user="12345@gmail.com", password="123456")
 data = pd.read_excel("people.xlsx")
 data = data.dropna()
 
